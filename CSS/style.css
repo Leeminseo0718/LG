@@ -410,6 +410,7 @@ footer ul li a {
   filter: brightness(70%);
 }
 
+/* arrow */
 .arrow-up {
   background-color: var(--color-primary);
   position: fixed;
@@ -421,4 +422,23 @@ footer ul li a {
   border-radius: 100%;
   text-align: center;
   box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.3);
+}
+
+/* footer */
+#contact {
+  background-color: var(--color-primary);
+  color: var(--color-text);
+}
+.contact_links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  font-size: 2rem;
+}
+.contact_links {
+  transition: color 250ms ease-in;
+}
+.contact_links:hover {
+  color: var(--color-accent);
 }
