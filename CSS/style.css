@@ -101,18 +101,12 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-
   .license {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }
-
-
 }
-
-
-
 
 /* Global 변수 */
 :root {
